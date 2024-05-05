@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Chrome Extensions Boilerplate",
+    "version": "1.0",
+    "description": "Using Vite, TypeScript, and React to create a Chrome extensions",
+    "author": "Achmad Hadi Kurnia",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "scripting",
+        "tabs",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ]
+  }
