@@ -17,14 +17,17 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <h2>Chrome Extensions Boilerplate</h2>
-      <h2>by Achmad Hadi Kurnia</h2>
+      <h3>Chrome Extensions Boilerplate</h3>
+      <p>by Achmad Hadi Kurnia</p>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          clicked {count} {count > 1 ? 'times' : 'time'}
         </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
+        </p>
+        <p>
+          <a href="https://github.com/achmadhadikurnia/chrome-extensions-boilerplate" target="_blank">Clone this project</a>
         </p>
       </div>
       <p className="read-the-docs">
